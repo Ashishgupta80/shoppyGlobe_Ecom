@@ -1,10 +1,10 @@
 # Github url
 
-https://github.com/Raj2902/Shoppy_Globe
+https://github.com/Ashishgupta80/shoppyGlobe_Ecom
 
 # Live url
 
-https://shoppy-globe-dusky.vercel.app/
+https://shoppy-globe-ecom.vercel.app/
 
 # Project details
 
