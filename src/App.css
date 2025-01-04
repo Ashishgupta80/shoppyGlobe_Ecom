@@ -288,3 +288,12 @@ body {
     align-items: center;
   }
 }
+
+
+/*fixed the dark mode issue on the modal for field*/
+@media (prefers-color-scheme: dark) {
+  .dark\:text-white {
+      --tw-text-opacity: 1;
+      color: black;
+  }
+}
