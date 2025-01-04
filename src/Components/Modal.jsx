@@ -64,6 +64,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="fullName"
+                className="dark:text-black"
                 type="text"
                 value={addressForm.fullName}
                 onChange={(event) =>
@@ -86,6 +87,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               <TextInput
                 id="phno"
                 type="number"
+                className="dark:text-black"
                 value={addressForm.phno}
                 onChange={(event) =>
                   setAddressForm({
@@ -106,6 +108,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="email"
+                className="dark:text-black"
                 type="email"
                 value={addressForm.email}
                 onChange={(event) =>
@@ -127,6 +130,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="addresss"
+                className="dark:text-black"
                 type="text"
                 value={addressForm.street}
                 onChange={(event) =>
@@ -148,6 +152,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="apartment"
+                className="dark:text-black"
                 type="text"
                 value={addressForm.apartment}
                 onChange={(event) =>
@@ -169,6 +174,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="city"
+                className="dark:text-black"
                 type="text"
                 value={addressForm.city}
                 onChange={(event) =>
@@ -190,6 +196,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="state"
+                className="dark:text-black"
                 type="text"
                 value={addressForm.state}
                 onChange={(event) =>
@@ -212,6 +219,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               <TextInput
                 id="country"
                 type="text"
+                className="dark:text-black"
                 value={addressForm.country}
                 onChange={(event) =>
                   setAddressForm({
@@ -232,6 +240,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="zipcode"
+                className="dark:text-black"
                 type="number"
                 value={addressForm.zipcode}
                 onChange={(event) =>
@@ -253,6 +262,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
               </div>
               <TextInput
                 id="landmark"
+                className="dark:text-black"
                 type="text"
                 value={addressForm.landmark}
                 onChange={(event) =>
